@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:padding="5dp"
+        android:id="@+id/back"/>
+    <FrameLayout
+        android:id="@+id/fram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img"
+        app:srcCompat="@drawable/booy"
+        app:civ_shadow_gravity="center"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="3dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="15"
+        app:civ_shadow_color="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/user_name"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="bottom"
+        >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relatv1"
+            >
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:id="@+id/imgg"
+                app:srcCompat="@drawable/woman"
+                app:civ_border_color="@color/colorPrimary"
+                app:civ_border_width="5dp"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="5"
+                app:civ_shadow_color="@color/colorPrimary"/>
+
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end|bottom"
+                android:layout_marginRight="10dp"
+                android:text="4"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="#fff"
+                android:background="@drawable/img_shape"
+                />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-17dp"
+            >
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:id="@+id/imgg2"
+                app:srcCompat="@drawable/man"
+                app:civ_border_color="@color/colorPrimary"
+                app:civ_border_width="5dp"
+                app:civ_shadow="true"
+                app:civ_shadow_radius="5"
+                app:civ_shadow_color="@color/colorPrimary"/>
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="end|bottom"
+                android:layout_marginRight="10dp"
+                android:text="2"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="#fff"
+                android:background="@drawable/img_shape"
+                />
+
+        </FrameLayout>
+    </LinearLayout>
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>

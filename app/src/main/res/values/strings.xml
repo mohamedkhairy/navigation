@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="user_name">User Nsme</string>
+    <string name="home">&#160; &#160;Home</string>
+    <string name="profile">&#160; &#160;My Profile</string>
+    <string name="events">&#160; &#160;Events</string>
+    <string name="favor">&#160; &#160;Favorites</string>
+    <string name="inbox">&#160; &#160;Inbox</string>
+    <string name="contact">&#160; &#160;Contact Us</string>
+    <string name="feed">&#160; &#160;Feed back</string>
+    <string name="setting">&#160; &#160;Settings</string>
+    <string name="school">\nMy Schools</string>
+    <string name="add">\nAdd a school</string>
+    <string name="how">How to use\nApplication</string>
+    <string name="dash">DASHBOARD</string>
+    <string name="out">&#160;Log out</string>
+</resources>
